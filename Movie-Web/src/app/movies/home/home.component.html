@@ -1,0 +1,25 @@
+<div class="row">
+  <div class="col-md-8 offset-2">
+    <select class="col-md-3 m-5 form-control">
+      <option *ngFor="let c of categories">{{ c }}</option>
+    </select>
+    <table class="table table-striped">
+      <thead>
+      <tr>
+        <th scope="col">Name</th>
+        <th scope="col">Category</th>
+        <th scope="col">Description</th>
+        <th scope="col">Price</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let m of movies" (click)="getMovieDetail(m.movieId)" style="cursor: pointer">
+        <td>{{ m.name }}</td>
+        <td>{{ m.category }}</td>
+        <td>{{ m.description }}</td>
+        <td>{{ m.price | currency: 'USD' }}</td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
