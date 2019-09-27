@@ -29,6 +29,14 @@
   "frameworks": {
     "netcoreapp2.2": {
       "dependencies": {
+        "AutoMapper": {
+          "target": "Package",
+          "version": "[9.0.0, )"
+        },
+        "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+          "target": "Package",
+          "version": "[7.0.0, )"
+        },
         "Microsoft.AspNetCore": {
           "target": "Package",
           "version": "[2.2.0, )"
@@ -85,7 +93,12 @@
         }
       },
       "imports": [
-        "net461"
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
       ],
       "assetTargetFallback": true,
       "warn": true

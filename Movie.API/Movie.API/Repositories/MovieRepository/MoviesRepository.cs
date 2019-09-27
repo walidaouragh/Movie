@@ -7,11 +7,11 @@ using Movie.API.Models;
 
 namespace Movie.API.Repositories
 {
-    public class MoviesRepository : IMoviesRepository
+    public class MovieRepository : IMovieRepository
     {
         private readonly MovieDbContext _context;
 
-        public MoviesRepository(MovieDbContext context)
+        public MovieRepository(MovieDbContext context)
         {
             _context = context;
         }
@@ -60,16 +60,16 @@ namespace Movie.API.Repositories
             return result;
         }
 
-        public async Task<Models.Movie> CreatMovies(MovieToPost movie)
+        public async Task<Models.Movie> CreateMovie(MovieToPost movieToPost)
         {
             var addMovie = new Models.Movie
             {
-                Name = movie.Name,
-                Category = movie.Category,
-                Description = movie.Description,
-                Price = movie.Price
+                Name = movieToPost.Name,
+                Category = movieToPost.Category,
+                Description = movieToPost.Description,
+                Price = movieToPost.Price,
             };
-                
+            
                 _context.Movies.Add(addMovie);
 
              await _context.SaveChangesAsync();

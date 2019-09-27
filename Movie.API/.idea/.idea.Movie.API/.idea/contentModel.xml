@@ -20,6 +20,9 @@
           <e p="MovieDbContext.cs" t="Include" />
           <e p="Seed.cs" t="Include" />
         </e>
+        <e p="Mapping" t="Include">
+          <e p="MappingProfile.cs" t="Include" />
+        </e>
         <e p="Migrations" t="Include">
           <e p="20190919200103_initialMigration.cs" t="Include" />
           <e p="20190919200103_initialMigration.Designer.cs" t="Include" />
@@ -30,6 +33,7 @@
           <e p="MovieToPost.cs" t="Include" />
           <e p="Rating.cs" t="Include" />
           <e p="Studio.cs" t="Include" />
+          <e p="StudioToPost.cs" t="Include" />
         </e>
         <e p="Movie.API.csproj" t="IncludeRecursive" />
         <e p="obj" t="ExcludeRecursive">

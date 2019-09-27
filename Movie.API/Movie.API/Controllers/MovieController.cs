@@ -1,48 +1,53 @@
 using System.Threading.Tasks;
+using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using Movie.API.Models;
 using Movie.API.Repositories;
 
 namespace Movie.API.Controllers
 {
-    [Route("api/movies")]
+    [Route("api/movie")]
     [ApiController]
     
     public class MovieController : ControllerBase
     {
-        private readonly IMoviesRepository _moviesRepository;
+        private readonly IMovieRepository _movieRepository;
+        private readonly IMapper _mapper;
 
 
-        public MovieController(IMoviesRepository moviesRepository)
+        public MovieController(IMovieRepository movieRepository, IMapper mapper)
         {
-            _moviesRepository = moviesRepository;
+            _movieRepository = movieRepository;
+            _mapper = mapper;
         }
 
         [HttpGet]
         public IActionResult GetMovies()
         {
-            var result =  _moviesRepository.GetMovies();
+            var result =  _movieRepository.GetMovies();
             return Ok(result);
         }
         
         [HttpGet("{id}")]
         public async Task<IActionResult> GetMovie(int id)
         {
-            var result =  await _moviesRepository.GetMovie(id);
+            var result =  await _movieRepository.GetMovie(id);
             return Ok(result);
         }
         
         [HttpGet("category")]
         public IActionResult GetMoviesByCategory([FromQuery]string category)
         {
-            var result = _moviesRepository.GetMoviesByCategory(category);
+            var result = _movieRepository.GetMoviesByCategory(category);
             return Ok(result);
         }
         
         [HttpPost]
-        public async Task<IActionResult> CreateMovies([FromBody]MovieToPost movie)
+        public async Task<IActionResult> CreateMovie([FromBody]Models.Movie movie)
         {
-            var result =  await _moviesRepository.CreatMovies(movie);
+            var mapper = _mapper.Map<Models.Movie, MovieToPost>(movie);
+            var result =  await _movieRepository.CreateMovie(mapper);
+            
             return Ok(result);
         }
         
@@ -50,14 +55,14 @@ namespace Movie.API.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateMovie([FromBody]MovieToPost movie, int id)
         {
-            var result =  await _moviesRepository.UpdateMovie(movie, id);
+            var result =  await _movieRepository.UpdateMovie(movie, id);
             return Ok(result);
         }
         
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteMovie(int id)
         {
-            await _moviesRepository.DeleteMovie(id);
+            await _movieRepository.DeleteMovie(id);
             return NoContent();
         }
     }

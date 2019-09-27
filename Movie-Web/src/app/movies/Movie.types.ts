@@ -14,7 +14,7 @@ declare module namespace {
   }
 
   export interface IMovie {
-    movieId: number;
+    movieId?: number;
     name: string;
     category: string;
     description: string;

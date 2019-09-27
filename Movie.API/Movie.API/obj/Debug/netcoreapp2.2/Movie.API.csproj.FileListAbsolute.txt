@@ -5,7 +5,6 @@ C:\Users\waouragh\Projects\Movie\Movie.API\Movie.API\bin\Debug\netcoreapp2.2\Mov
 C:\Users\waouragh\Projects\Movie\Movie.API\Movie.API\bin\Debug\netcoreapp2.2\Movie.API.dll
 C:\Users\waouragh\Projects\Movie\Movie.API\Movie.API\bin\Debug\netcoreapp2.2\Movie.API.pdb
 C:\Users\waouragh\Projects\Movie\Movie.API\Movie.API\obj\Debug\netcoreapp2.2\Movie.API.csprojAssemblyReference.cache
-C:\Users\waouragh\Projects\Movie\Movie.API\Movie.API\obj\Debug\netcoreapp2.2\Movie.API.csproj.CoreCompileInputs.cache
 C:\Users\waouragh\Projects\Movie\Movie.API\Movie.API\obj\Debug\netcoreapp2.2\Movie.API.RazorAssemblyInfo.cache
 C:\Users\waouragh\Projects\Movie\Movie.API\Movie.API\obj\Debug\netcoreapp2.2\Movie.API.RazorAssemblyInfo.cs
 C:\Users\waouragh\Projects\Movie\Movie.API\Movie.API\obj\Debug\netcoreapp2.2\Movie.API.AssemblyInfoInputs.cache
@@ -13,3 +12,7 @@ C:\Users\waouragh\Projects\Movie\Movie.API\Movie.API\obj\Debug\netcoreapp2.2\Mov
 C:\Users\waouragh\Projects\Movie\Movie.API\Movie.API\obj\Debug\netcoreapp2.2\Movie.API.RazorTargetAssemblyInfo.cache
 C:\Users\waouragh\Projects\Movie\Movie.API\Movie.API\obj\Debug\netcoreapp2.2\Movie.API.dll
 C:\Users\waouragh\Projects\Movie\Movie.API\Movie.API\obj\Debug\netcoreapp2.2\Movie.API.pdb
+C:\Users\waouragh\Projects\Movie\Movie.API\Movie.API\bin\Debug\netcoreapp2.2\app.config
+C:\Users\waouragh\Projects\Movie\Movie.API\Movie.API\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\waouragh\Projects\Movie\Movie.API\Movie.API\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\waouragh\Projects\Movie\Movie.API\Movie.API\bin\Debug\netcoreapp2.2\Properties\launchSettings.json

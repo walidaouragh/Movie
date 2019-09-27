@@ -1,12 +1,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
 using Movie.API.Models;
 
 namespace Movie.API.Repositories
 {
-    public interface IMoviesRepository
+    public interface IMovieRepository
     {
         List<Models.Movie> GetMovies();
 
@@ -14,7 +13,7 @@ namespace Movie.API.Repositories
         
         IQueryable GetMoviesByCategory(string category);
 
-        Task<Models.Movie> CreatMovies(MovieToPost movie);
+        Task<Models.Movie> CreateMovie(MovieToPost movie);
         
         Task<Models.Movie> UpdateMovie(MovieToPost movie, int id);
         

@@ -26,5 +26,19 @@ namespace Movie.API.Repositories.StudioRepository
             return await _context.Studios
                 .SingleOrDefaultAsync(s => s.StudioId == id);
         }
+
+        public async Task<Studio> CreateStudio(StudioToPost studioToPost)
+        {
+            var addStudio = new Studio
+            {
+                Name = studioToPost.Name,
+                City = studioToPost.City,
+                State = studioToPost.State
+            };
+              _context.Studios.Add(addStudio);
+              await _context.SaveChangesAsync();
+              
+              return addStudio;
+        }
     }
 }

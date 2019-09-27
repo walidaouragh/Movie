@@ -1,10 +1,11 @@
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Movie.API.Models;
 using Movie.API.Repositories.StudioRepository;
 
 namespace Movie.API.Controllers
 {
-    [Route("api/studios")]
+    [Route("api/studio")]
     [ApiController]
     public class StudioController : ControllerBase
     {
@@ -27,6 +28,14 @@ namespace Movie.API.Controllers
         public async Task<IActionResult> GetStudio(int id)
         {
             var result =  await _studioRepository.GetStudio(id);
+            return Ok(result);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> CreateStudio([FromBody] StudioToPost studio)
+        {
+            var result = await _studioRepository.CreateStudio(studio);
+
             return Ok(result);
         }
     }

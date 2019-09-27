@@ -1,4 +1,5 @@
 ﻿using System;
+using AutoMapper;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -33,7 +34,7 @@ namespace Movie.API
                 opts.SerializerSettings.NullValueHandling 
                     = NullValueHandling.Ignore;
             });
-            
+            services.AddAutoMapper(typeof(Startup));
             services.AddCors();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
             

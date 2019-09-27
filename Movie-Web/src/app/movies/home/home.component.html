@@ -1,8 +1,11 @@
 <div class="row">
   <div class="col-md-8 offset-2">
-    <select class="col-md-3 m-5 form-control">
-      <option *ngFor="let c of categories">{{ c }}</option>
-    </select>
+    <div class="row m-5">
+      <select class="col-md-3 mr-2 form-control">
+        <option *ngFor="let c of categories">{{ c }}</option>
+      </select>
+      <button class="btn btn-primary" (click)="createMovie()">Add Movie</button>
+    </div>
     <table class="table table-striped">
       <thead>
       <tr>
@@ -10,6 +13,7 @@
         <th scope="col">Category</th>
         <th scope="col">Description</th>
         <th scope="col">Price</th>
+        <th></th>
       </tr>
       </thead>
       <tbody>
@@ -18,8 +22,40 @@
         <td>{{ m.category }}</td>
         <td>{{ m.description }}</td>
         <td>{{ m.price | currency: 'USD' }}</td>
+       <!-- <td><button class="alert-danger" (click)="deleteMovie(m.movieId)"><i class="fa fa-trash" aria-hidden="true"></i></button></td>-->
       </tr>
       </tbody>
     </table>
   </div>
 </div>
+
+<ng-template #modal let-c="close" let-d="dismiss">
+  <div class="modal-header">
+    <h4 class="modal-title" id="modal-basic-title">Add Movie</h4>
+    <button type="button" class="close" aria-label="Close" (click)="d('Cross click')">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <form [formGroup]="form" class="modal-body" (ngSubmit)="onSave()">
+    <div class="form-group">
+      <label><strong>Movie Name</strong></label>
+      <input type="text" placeholder="Movie Name" class="form-control" formControlName="name">
+    </div>
+    <div class="form-group">
+      <label><strong>Category</strong></label>
+      <input type="text" placeholder="Category" class="form-control" formControlName="category">
+    </div>
+    <div class="form-group">
+      <label><strong>Description</strong></label>
+      <input type="text" placeholder="Description" class="form-control" formControlName="description">
+    </div>
+    <div class="form-group">
+      <label><strong>Price</strong></label>
+      <input type="text" placeholder="Price" class="form-control" formControlName="price">
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-primary" (click)="d('Cross click')">Cancel</button>
+      <button type="submit" class="btn btn-outline-dark">Save</button>
+    </div>
+  </form>
+</ng-template>
