@@ -1,0 +1,7 @@
+C:\Users\waouragh\Projects\Movie\Movie.API\Movie.API\obj\Debug\netcoreapp3.0\Movie.API.csprojAssemblyReference.cache
+C:\Users\waouragh\Projects\Movie\Movie.API\Movie.API\obj\Debug\netcoreapp3.0\Movie.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\waouragh\Projects\Movie\Movie.API\Movie.API\obj\Debug\netcoreapp3.0\Movie.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\waouragh\Projects\Movie\Movie.API\Movie.API\obj\Debug\netcoreapp3.0\Movie.API.RazorAssemblyInfo.cache
+C:\Users\waouragh\Projects\Movie\Movie.API\Movie.API\obj\Debug\netcoreapp3.0\Movie.API.RazorAssemblyInfo.cs
+C:\Users\waouragh\Projects\Movie\Movie.API\Movie.API\obj\Debug\netcoreapp3.0\Movie.API.AssemblyInfoInputs.cache
+C:\Users\waouragh\Projects\Movie\Movie.API\Movie.API\obj\Debug\netcoreapp3.0\Movie.API.AssemblyInfo.cs

@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.OpenApi.Models;
 using Movie.API.DbContext;
 using Newtonsoft.Json;
 
@@ -34,6 +35,17 @@ namespace Movie.API
                 opts.SerializerSettings.NullValueHandling 
                     = NullValueHandling.Ignore;
             });
+
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo
+                {
+                    Version = "v1",
+                    Title = "Movie API",
+                    Description = "A simple example ASP.NET Core Web API"
+                });
+            });
+                
             services.AddAutoMapper(typeof(Startup));
             services.AddCors();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
@@ -60,6 +72,13 @@ namespace Movie.API
             app.UseCors(x => x.AllowAnyMethod().AllowAnyHeader().WithOrigins("http://localhost:4200"));
             app.UseHttpsRedirection();
             app.UseMvc();
+            
+            app.UseSwagger();
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "My Movie API V1");
+                c.RoutePrefix = "swagger/ui";
+            });
         }
         
         //Using Scrutor to automatically register your services with the ASP.NET Core, so no need to add like services.Addscope.........
