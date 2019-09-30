@@ -77,13 +77,10 @@ namespace Movie.API.Repositories
              return addMovie;
         }
 
-        public async Task<Models.Movie> UpdateMovie(MovieToPost movie, int id)
+        public async Task UpdateMovie(Models.Movie movie)
         {
-            var result = await _context.Movies
-                .SingleOrDefaultAsync(m => m.MovieId == id);
-            _context.Update(result);
+            _context.Movies.Update(movie);
             await _context.SaveChangesAsync();
-            return result;
         }
 
         public async Task DeleteMovie(int id)

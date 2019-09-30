@@ -45,18 +45,23 @@ namespace Movie.API.Controllers
         [HttpPost]
         public async Task<IActionResult> CreateMovie([FromBody]Models.Movie movie)
         {
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+            
             var mapper = _mapper.Map<Models.Movie, MovieToPost>(movie);
             var result =  await _movieRepository.CreateMovie(mapper);
             
             return Ok(result);
         }
         
-        //put still not working properly
-        [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateMovie([FromBody]MovieToPost movie, int id)
+        [HttpPut]
+        public async Task<IActionResult> UpdateMovie([FromBody]Models.Movie movie)
         {
-            var result =  await _movieRepository.UpdateMovie(movie, id);
-            return Ok(result);
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+            
+            await _movieRepository.UpdateMovie(movie);
+             return NoContent();
         }
         
         [HttpDelete("{id}")]

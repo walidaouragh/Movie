@@ -10,5 +10,8 @@ namespace Movie.API.Repositories.StudioRepository
 
         Task<Studio> GetStudio(int id);
         Task<Studio> CreateStudio(StudioToPost studio);
+        Task UpdateStudio(Studio studio);
+
+        Task DeleteStudio(int id);
     }
 }

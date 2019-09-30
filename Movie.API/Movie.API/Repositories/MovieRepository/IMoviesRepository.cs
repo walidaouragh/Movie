@@ -15,7 +15,7 @@ namespace Movie.API.Repositories
 
         Task<Models.Movie> CreateMovie(MovieToPost movie);
         
-        Task<Models.Movie> UpdateMovie(MovieToPost movie, int id);
+        Task UpdateMovie(Models.Movie movie);
         
         Task DeleteMovie(int id);
     }

@@ -38,5 +38,20 @@ namespace Movie.API.Controllers
 
             return Ok(result);
         }
+
+        [HttpPut]
+        public async Task<IActionResult> UpdateStudio([FromBody] Studio studio)
+        { 
+            await _studioRepository.UpdateStudio(studio);
+            return NoContent();
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteStudio(int id)
+        {
+            await _studioRepository.DeleteStudio(id);
+
+            return NoContent();
+        }
     }
 }

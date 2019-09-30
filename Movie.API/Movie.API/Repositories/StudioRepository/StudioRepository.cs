@@ -40,5 +40,18 @@ namespace Movie.API.Repositories.StudioRepository
               
               return addStudio;
         }
+
+        public async Task UpdateStudio(Studio studio)
+        {
+            _context.Studios.Update(studio);
+            await _context.SaveChangesAsync();
+        }
+
+        public async Task DeleteStudio(int id)
+        {
+            var studio = _context.Studios.First(m => m.StudioId == id);
+            _context.Studios.Remove(studio);
+            await _context.SaveChangesAsync();
+        }
     }
 }

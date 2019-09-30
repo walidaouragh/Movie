@@ -1,26 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8336939b-112d-43f6-b23d-9f96caa54119" name="Default Changelist" comment="Test only API changes push">
+    <list default="true" id="8336939b-112d-43f6-b23d-9f96caa54119" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Movie-Web/.prettierrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Movie-Web/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../Movie-Web/.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Movie-Web/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Movie-Web/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Movie-Web/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Movie-Web/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Movie.API/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Movie.API/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Movie.API/Movie.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Movie.API/Movie.API.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Movie.API/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Movie.API/Properties/launchSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Movie.API/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Movie.API/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Movie.API/bin/Debug/netcoreapp2.2/Movie.API.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Movie.API/bin/Debug/netcoreapp2.2/Movie.API.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Movie.API/Controllers/MovieController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Movie.API/Controllers/MovieController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Movie.API/Controllers/StudioController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Movie.API/Controllers/StudioController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Movie.API/Models/MovieToPost.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Movie.API/Models/MovieToPost.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Movie.API/Repositories/MovieRepository/IMoviesRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Movie.API/Repositories/MovieRepository/IMoviesRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Movie.API/Repositories/MovieRepository/MoviesRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Movie.API/Repositories/MovieRepository/MoviesRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Movie.API/Repositories/StudioRepository/IStudioRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Movie.API/Repositories/StudioRepository/IStudioRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Movie.API/Repositories/StudioRepository/StudioRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Movie.API/Repositories/StudioRepository/StudioRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Movie.API/bin/Debug/netcoreapp2.2/Movie.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Movie.API/bin/Debug/netcoreapp2.2/Movie.API.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Movie.API/bin/Debug/netcoreapp2.2/Movie.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Movie.API/bin/Debug/netcoreapp2.2/Movie.API.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Movie.API/bin/Debug/netcoreapp2.2/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Movie.API/bin/Debug/netcoreapp2.2/Properties/launchSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Movie.API/obj/Debug/netcoreapp2.2/Movie.API.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Movie.API/obj/Debug/netcoreapp2.2/Movie.API.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Movie.API/obj/Debug/netcoreapp2.2/Movie.API.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Movie.API/obj/Debug/netcoreapp2.2/Movie.API.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Movie.API/obj/Debug/netcoreapp2.2/Movie.API.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Movie.API/obj/Debug/netcoreapp2.2/Movie.API.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Movie.API/obj/Debug/netcoreapp2.2/Movie.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Movie.API/obj/Debug/netcoreapp2.2/Movie.API.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Movie.API/obj/Debug/netcoreapp2.2/Movie.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Movie.API/obj/Debug/netcoreapp2.2/Movie.API.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Movie.API/obj/Movie.API.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Movie.API/obj/Movie.API.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Movie.API/obj/Movie.API.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Movie.API/obj/Movie.API.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Movie.API/obj/Movie.API.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Movie.API/obj/Movie.API.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Movie.API/obj/Movie.API.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/Movie.API/obj/Movie.API.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Movie.API/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Movie.API/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Movie.API/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Movie.API/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Movie.API/obj/Movie.API.json" beforeDir="false" afterPath="$PROJECT_DIR$/Movie.API/obj/Movie.API.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,43 +29,118 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Movie.API/Startup.cs">
+        <entry file="file://$PROJECT_DIR$/Movie.API/Controllers/MovieController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="277">
+              <caret line="57" column="82" lean-forward="true" selection-start-line="57" selection-start-column="82" selection-end-line="57" selection-end-column="82" />
               <folding>
-                <marker date="1569777499165" expanded="true" signature="6:382" ph="..." />
-                <marker date="1569777499165" expanded="true" signature="403:3600" ph="{...}" />
-                <marker date="1569777499165" expanded="true" signature="430:3598" ph="{...}" />
-                <marker date="1569777499165" expanded="true" signature="546:610" ph="{...}" />
-                <marker date="1569777499165" expanded="true" signature="833:1909" ph="{...}" />
-                <marker date="1569777499165" expanded="true" signature="1086:1325" ph="{...}" />
-                <marker date="1569777499165" expanded="true" signature="1381:1636" ph="{...}" />
-                <marker date="1569777499165" expanded="true" signature="1450:1620" ph="{...}" />
-                <marker date="1569777499165" expanded="true" signature="2121:2976" ph="{...}" />
-                <marker date="1569777499165" expanded="true" signature="2168:2245" ph="{...}" />
-                <marker date="1569777499165" expanded="true" signature="2262:2465" ph="{...}" />
-                <marker date="1569777499165" expanded="true" signature="2821:2964" ph="{...}" />
-                <marker date="1569777499165" expanded="true" signature="3213:3592" ph="{...}" />
+                <marker date="1569861350212" expanded="true" signature="6:133" ph="..." />
+                <marker date="1569861350212" expanded="true" signature="166:2111" ph="{...}" />
+                <marker date="1569861350212" expanded="true" signature="268:2109" ph="{...}" />
+                <marker date="1569861350212" expanded="true" signature="459:557" ph="{...}" />
+                <marker date="1569861350212" expanded="true" signature="617:724" ph="{...}" />
+                <marker date="1569861350212" expanded="true" signature="817:931" ph="{...}" />
+                <marker date="1569861350212" expanded="true" signature="1047:1171" ph="{...}" />
+                <marker date="1569861350212" expanded="true" signature="1282:1585" ph="{...}" />
+                <marker date="1569861350212" expanded="true" signature="1695:1900" ph="{...}" />
+                <marker date="1569861350212" expanded="true" signature="1999:2103" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Movie.API/Properties/launchSettings.json">
+        <entry file="file://$PROJECT_DIR$/Movie.API/Controllers/StudioController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="42" column="39" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="39" />
+              <folding>
+                <marker date="1569861726154" expanded="true" signature="6:132" ph="..." />
+                <marker date="1569861726154" expanded="true" signature="165:1498" ph="{...}" />
+                <marker date="1569861726154" expanded="true" signature="264:1496" ph="{...}" />
+                <marker date="1569861726154" expanded="true" signature="402:472" ph="{...}" />
+                <marker date="1569861726154" expanded="true" signature="533:642" ph="{...}" />
+                <marker date="1569861726154" expanded="true" signature="736:852" ph="{...}" />
+                <marker date="1569861726154" expanded="true" signature="958:1081" ph="{...}" />
+                <marker date="1569861726154" expanded="true" signature="1180:1291" ph="{...}" />
+                <marker date="1569861726154" expanded="true" signature="1383:1490" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Movie.API/Repositories/MovieRepository/MoviesRepository.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="172">
+              <caret line="69" column="42" selection-start-line="69" selection-start-column="42" selection-end-line="69" selection-end-column="42" />
+              <folding>
+                <marker date="1569862107620" expanded="true" signature="6:170" ph="..." />
+                <marker date="1569862107620" expanded="true" signature="204:2778" ph="{...}" />
+                <marker date="1569862107620" expanded="true" signature="258:2776" ph="{...}" />
+                <marker date="1569862107620" expanded="true" signature="370:422" ph="{...}" />
+                <marker date="1569862107620" expanded="true" signature="468:583" ph="{...}" />
+                <marker date="1569862107620" expanded="true" signature="641:1680" ph="{...}" />
+                <marker date="1569862107620" expanded="true" signature="926:1643" ph="{...}" />
+                <marker date="1569862107620" expanded="true" signature="983:1408" ph="{...}" />
+                <marker date="1569862107620" expanded="true" signature="1117:1388" ph="{...}" />
+                <marker date="1569862107620" expanded="true" signature="1452:1629" ph="{...}" />
+                <marker date="1569862107620" expanded="true" signature="1527:1611" ph="{...}" />
+                <marker date="1569862107620" expanded="true" signature="1752:1876" ph="{...}" />
+                <marker date="1569862107620" expanded="true" signature="1954:2375" ph="{...}" />
+                <marker date="1569862107620" expanded="true" signature="2021:2224" ph="{...}" />
+                <marker date="1569862107620" expanded="true" signature="2434:2544" ph="{...}" />
+                <marker date="1569862107620" expanded="true" signature="2591:2770" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Movie.API/Repositories/MovieRepository/IMoviesRepository.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
-              <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+              <folding>
+                <marker date="1569859613040" expanded="true" signature="6:106" ph="..." />
+                <marker date="1569859613040" expanded="true" signature="140:504" ph="{...}" />
+                <marker date="1569859613040" expanded="true" signature="180:502" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Movie.API/Repositories/StudioRepository/IStudioRepository.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+              <folding>
+                <marker date="1569861726124" expanded="true" signature="6:87" ph="..." />
+                <marker date="1569861726124" expanded="true" signature="138:403" ph="{...}" />
+                <marker date="1569861726124" expanded="true" signature="179:401" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Movie.API/Movie.API.csproj">
+        <entry file="file://$PROJECT_DIR$/Movie.API/Repositories/StudioRepository/StudioRepository.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="645">
+              <caret line="43" column="25" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
+              <folding>
+                <marker date="1569861726143" expanded="true" signature="6:170" ph="..." />
+                <marker date="1569861726143" expanded="true" signature="221:1608" ph="{...}" />
+                <marker date="1569861726143" expanded="true" signature="277:1606" ph="{...}" />
+                <marker date="1569861726143" expanded="true" signature="390:442" ph="{...}" />
+                <marker date="1569861726143" expanded="true" signature="483:591" ph="{...}" />
+                <marker date="1569861726143" expanded="true" signature="644:768" ph="{...}" />
+                <marker date="1569861726143" expanded="true" signature="843:1201" ph="{...}" />
+                <marker date="1569861726143" expanded="true" signature="905:1047" ph="{...}" />
+                <marker date="1569861726143" expanded="true" signature="1256:1368" ph="{...}" />
+                <marker date="1569861726143" expanded="true" signature="1416:1600" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -107,6 +180,7 @@
     <setting file="file://$PROJECT_DIR$/Movie.API/Controllers/ValuesController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Movie.API/DbContext/Seed.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Movie.API/Repositories/StudioRepository/StudioRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Movie.API/obj/Debug/netcoreapp3.0/Movie.API.AssemblyInfo.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Movie.API/Repositories/MovieRepository/IMoviesRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Movie.API/Repositories/StudioRepository/IStudioRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Movie.API/Repositories/MovieRepository/MoviesRepository.cs" root0="FORCE_HIGHLIGHTING" />
@@ -139,21 +213,22 @@
         <option value="$PROJECT_DIR$/Movie.API/Models/Rating.cs" />
         <option value="$PROJECT_DIR$/Movie.API/Models/Movie.cs" />
         <option value="$PROJECT_DIR$/Movie.API/Models/StudioToPost.cs" />
-        <option value="$PROJECT_DIR$/Movie.API/Repositories/StudioRepository/StudioRepository.cs" />
-        <option value="$PROJECT_DIR$/Movie.API/Repositories/StudioRepository/IStudioRepository.cs" />
-        <option value="$PROJECT_DIR$/Movie.API/Controllers/StudioController.cs" />
-        <option value="$PROJECT_DIR$/Movie.API/Repositories/MovieRepository/MoviesRepository.cs" />
-        <option value="$PROJECT_DIR$/Movie.API/Models/MovieToPost.cs" />
         <option value="$PROJECT_DIR$/Movie.API/AutoMapperConfig.cs" />
         <option value="$PROJECT_DIR$/Movie.API/Mapping.json" />
         <option value="$PROJECT_DIR$/Movie.API/Mapping/MappinigProfile.cs" />
-        <option value="$PROJECT_DIR$/Movie.API/Controllers/MovieController.cs" />
-        <option value="$PROJECT_DIR$/Movie.API/Mapping/MappingProfile.cs" />
-        <option value="$PROJECT_DIR$/Movie.API/Repositories/MovieRepository/IMoviesRepository.cs" />
         <option value="$PROJECT_DIR$/Movie.API/Properties/launchSettings.json" />
-        <option value="$PROJECT_DIR$/Movie.API/Startup.cs" />
         <option value="C:/Program Files/dotnet/sdk/3.0.100/Microsoft.Common.CurrentVersion.targets" />
         <option value="$PROJECT_DIR$/Movie.API/Movie.API.csproj" />
+        <option value="$PROJECT_DIR$/Movie.API/Startup.cs" />
+        <option value="$PROJECT_DIR$/Movie.API/Models/MovieToPost.cs" />
+        <option value="$PROJECT_DIR$/Movie.API/Models/MovieToPut.cs" />
+        <option value="$PROJECT_DIR$/Movie.API/Repositories/MovieRepository/IMoviesRepository.cs" />
+        <option value="$PROJECT_DIR$/Movie.API/Mapping/MappingProfile.cs" />
+        <option value="$PROJECT_DIR$/Movie.API/Controllers/MovieController.cs" />
+        <option value="$PROJECT_DIR$/Movie.API/Repositories/StudioRepository/IStudioRepository.cs" />
+        <option value="$PROJECT_DIR$/Movie.API/Repositories/StudioRepository/StudioRepository.cs" />
+        <option value="$PROJECT_DIR$/Movie.API/Controllers/StudioController.cs" />
+        <option value="$PROJECT_DIR$/Movie.API/Repositories/MovieRepository/MoviesRepository.cs" />
       </list>
     </option>
   </component>
@@ -167,8 +242,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1928" />
-    <option name="y" value="-83" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -178,10 +253,55 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="FileSystemExplorer" />
       <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Movie.API" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Movie.API" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Movie.API" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Movie.API" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Movie.API" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Controllers" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Movie.API" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Movie.API" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="DbContext" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Movie.API" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Movie.API" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Mapping" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Movie.API" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Movie.API" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Repositories" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Movie.API" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Movie.API" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Repositories" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="StudioRepository" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
         <option name="show-all-files" value="false" />
       </pane>
+      <pane id="FileSystemExplorer" />
       <pane id="AssemblyExplorer">
         <subPane>
           <expand>
@@ -269,6 +389,7 @@
       <workItem from="1569779079601" duration="1892000" />
       <workItem from="1569781212340" duration="322000" />
       <workItem from="1569781646748" duration="170000" />
+      <workItem from="1569782181058" duration="16162000" />
     </task>
     <task id="LOCAL-00001" summary="Test only API changes push">
       <created>1568912143552</created>
@@ -277,11 +398,18 @@
       <option name="project" value="LOCAL" />
       <updated>1568912143552</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add Swagger UI to API">
+      <created>1569782423388</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1569782423388</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64059000" />
+    <option name="totallyTimeSpent" value="80221000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -293,16 +421,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-83" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17101759" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17261587" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Build" order="0" weight="0.5678337" />
+      <window_info anchor="bottom" id="Build" order="0" weight="0.30743983" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.21444201" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.15207878" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.27899343" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
@@ -356,7 +485,8 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Test only API changes push" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test only API changes push" />
+    <MESSAGE value="Add Swagger UI to API" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Swagger UI to API" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -424,18 +554,6 @@
     <entry file="file://$PROJECT_DIR$/Movie.API/Models/RatingsResult.cs" />
     <entry file="file://$PROJECT_DIR$/Movie.API/Models/MoviesResult.cs" />
     <entry file="file://$PROJECT_DIR$/Movie.API/Models/StudioResult.cs" />
-    <entry file="file://$PROJECT_DIR$/Movie.API/DbContext/MovieDbContext.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding>
-            <marker date="1568923592492" expanded="true" signature="6:60" ph="..." />
-            <marker date="1568923592492" expanded="true" signature="91:485" ph="{...}" />
-            <marker date="1568923592492" expanded="true" signature="167:483" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Movie.API/Services/IMoviesService.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -458,17 +576,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Movie.API/Models/Studio.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-          <folding>
-            <marker date="1569104852926" expanded="true" signature="61:322" ph="{...}" />
-            <marker date="1569104852926" expanded="true" signature="87:320" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Movie.API/Models/StudioToPost.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -479,126 +586,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Movie.API/Repositories/StudioRepository/IStudioRepository.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-          <folding>
-            <marker date="1569596008454" expanded="true" signature="6:87" ph="..." />
-            <marker date="1569596008454" expanded="true" signature="179:323" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Movie.API/Repositories/StudioRepository/StudioRepository.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
-          <folding>
-            <marker date="1569595719099" expanded="true" signature="6:170" ph="..." />
-            <marker date="1569595719099" expanded="true" signature="277:1207" ph="{...}" />
-            <marker date="1569595719099" expanded="true" signature="390:442" ph="{...}" />
-            <marker date="1569595719099" expanded="true" signature="483:591" ph="{...}" />
-            <marker date="1569595719099" expanded="true" signature="644:768" ph="{...}" />
-            <marker date="1569595719099" expanded="true" signature="843:1201" ph="{...}" />
-            <marker date="1569595719099" expanded="true" signature="905:1047" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Movie.API/Controllers/StudioController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-          <folding>
-            <marker date="1569596720884" expanded="true" signature="6:132" ph="..." />
-            <marker date="1569596720884" expanded="true" signature="264:1087" ph="{...}" />
-            <marker date="1569596720884" expanded="true" signature="402:472" ph="{...}" />
-            <marker date="1569596720884" expanded="true" signature="533:642" ph="{...}" />
-            <marker date="1569596720884" expanded="true" signature="736:852" ph="{...}" />
-            <marker date="1569596720884" expanded="true" signature="958:1081" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Movie.API/AutoMapperConfig.cs" />
     <entry file="file://$PROJECT_DIR$/Movie.API/Mapping.json" />
     <entry file="file://$PROJECT_DIR$/Movie.API.sln">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Movie.API/Mapping/MappinigProfile.cs" />
-    <entry file="file://$PROJECT_DIR$/Movie.API/Models/Movie.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-          <folding>
-            <marker date="1569009276152" expanded="true" signature="61:411" ph="{...}" />
-            <marker date="1569009276152" expanded="true" signature="86:409" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Movie.API/Mapping/MappingProfile.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
-          <folding>
-            <marker date="1569599682121" expanded="true" signature="6:41" ph="..." />
-            <marker date="1569599682121" expanded="true" signature="70:232" ph="{...}" />
-            <marker date="1569599682121" expanded="true" signature="114:230" ph="{...}" />
-            <marker date="1569599682121" expanded="true" signature="152:224" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Movie.API/Repositories/MovieRepository/MoviesRepository.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1035">
-          <caret line="69" column="42" selection-start-line="69" selection-start-column="42" selection-end-line="69" selection-end-column="42" />
-          <folding>
-            <marker date="1569597276982" expanded="true" signature="6:170" ph="..." />
-            <marker date="1569597276982" expanded="true" signature="204:2928" ph="{...}" />
-            <marker date="1569597276982" expanded="true" signature="258:2926" ph="{...}" />
-            <marker date="1569597276982" expanded="true" signature="370:422" ph="{...}" />
-            <marker date="1569597276982" expanded="true" signature="468:583" ph="{...}" />
-            <marker date="1569597276982" expanded="true" signature="641:1680" ph="{...}" />
-            <marker date="1569597276982" expanded="true" signature="926:1643" ph="{...}" />
-            <marker date="1569597276982" expanded="true" signature="983:1408" ph="{...}" />
-            <marker date="1569597276982" expanded="true" signature="1117:1388" ph="{...}" />
-            <marker date="1569597276982" expanded="true" signature="1452:1629" ph="{...}" />
-            <marker date="1569597276982" expanded="true" signature="1527:1611" ph="{...}" />
-            <marker date="1569597276982" expanded="true" signature="1752:1876" ph="{...}" />
-            <marker date="1569597276982" expanded="true" signature="1954:2375" ph="{...}" />
-            <marker date="1569597276982" expanded="true" signature="2021:2224" ph="{...}" />
-            <marker date="1569597276982" expanded="true" signature="2455:2694" ph="{...}" />
-            <marker date="1569597276982" expanded="true" signature="2741:2920" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Movie.API/Models/MovieToPost.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
-          <folding>
-            <marker date="1569597181556" expanded="true" signature="26:248" ph="{...}" />
-            <marker date="1569597181556" expanded="true" signature="57:246" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Movie.API/Repositories/MovieRepository/IMoviesRepository.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-          <folding>
-            <marker date="1569611151204" expanded="true" signature="6:106" ph="..." />
-            <marker date="1569611151204" expanded="true" signature="140:525" ph="{...}" />
-            <marker date="1569611151204" expanded="true" signature="180:523" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Movie.API/app.config">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -648,58 +641,209 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Movie.API/Controllers/MovieController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="51" column="9" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
-          <folding>
-            <marker date="1569599391714" expanded="true" signature="6:133" ph="..." />
-            <marker date="1569599391714" expanded="true" signature="166:1989" ph="{...}" />
-            <marker date="1569599391714" expanded="true" signature="268:1987" ph="{...}" />
-            <marker date="1569599391714" expanded="true" signature="459:557" ph="{...}" />
-            <marker date="1569599391714" expanded="true" signature="617:724" ph="{...}" />
-            <marker date="1569599391714" expanded="true" signature="817:931" ph="{...}" />
-            <marker date="1569599391714" expanded="true" signature="1047:1171" ph="{...}" />
-            <marker date="1569599391714" expanded="true" signature="1282:1488" ph="{...}" />
-            <marker date="1569599391714" expanded="true" signature="1654:1778" ph="{...}" />
-            <marker date="1569599391714" expanded="true" signature="1877:1981" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Movie.API/Startup.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="-785">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
           <folding>
-            <marker date="1569777499165" expanded="true" signature="6:382" ph="..." />
-            <marker date="1569777499165" expanded="true" signature="403:3600" ph="{...}" />
-            <marker date="1569777499165" expanded="true" signature="430:3598" ph="{...}" />
-            <marker date="1569777499165" expanded="true" signature="546:610" ph="{...}" />
-            <marker date="1569777499165" expanded="true" signature="833:1909" ph="{...}" />
-            <marker date="1569777499165" expanded="true" signature="1086:1325" ph="{...}" />
-            <marker date="1569777499165" expanded="true" signature="1381:1636" ph="{...}" />
-            <marker date="1569777499165" expanded="true" signature="1450:1620" ph="{...}" />
-            <marker date="1569777499165" expanded="true" signature="2121:2976" ph="{...}" />
-            <marker date="1569777499165" expanded="true" signature="2168:2245" ph="{...}" />
-            <marker date="1569777499165" expanded="true" signature="2262:2465" ph="{...}" />
-            <marker date="1569777499165" expanded="true" signature="2821:2964" ph="{...}" />
-            <marker date="1569777499165" expanded="true" signature="3213:3592" ph="{...}" />
+            <marker date="1569782319252" expanded="true" signature="6:344" ph="..." />
+            <marker date="1569782319252" expanded="true" signature="365:3562" ph="{...}" />
+            <marker date="1569782319252" expanded="true" signature="392:3560" ph="{...}" />
+            <marker date="1569782319252" expanded="true" signature="508:572" ph="{...}" />
+            <marker date="1569782319252" expanded="true" signature="795:1871" ph="{...}" />
+            <marker date="1569782319252" expanded="true" signature="1048:1287" ph="{...}" />
+            <marker date="1569782319252" expanded="true" signature="1343:1598" ph="{...}" />
+            <marker date="1569782319252" expanded="true" signature="1412:1582" ph="{...}" />
+            <marker date="1569782319252" expanded="true" signature="2083:2938" ph="{...}" />
+            <marker date="1569782319252" expanded="true" signature="2130:2207" ph="{...}" />
+            <marker date="1569782319252" expanded="true" signature="2224:2427" ph="{...}" />
+            <marker date="1569782319252" expanded="true" signature="2783:2926" ph="{...}" />
+            <marker date="1569782319252" expanded="true" signature="3175:3554" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Movie.API/Properties/launchSettings.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+        <state relative-caret-position="420">
+          <caret line="28" column="3" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Movie.API/Movie.API.csproj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="375">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Movie.API/Models/Studio.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding>
+            <marker date="1569104852926" expanded="true" signature="61:322" ph="{...}" />
+            <marker date="1569104852926" expanded="true" signature="87:320" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Movie.API/Models/MovieToPost.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="9" selection-end-column="42" />
+          <folding>
+            <marker date="1569789242546" expanded="true" signature="61:377" ph="{...}" />
+            <marker date="1569789242546" expanded="true" signature="92:375" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Movie.API/DbContext/MovieDbContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding>
+            <marker date="1568923592492" expanded="true" signature="6:60" ph="..." />
+            <marker date="1568923592492" expanded="true" signature="91:485" ph="{...}" />
+            <marker date="1568923592492" expanded="true" signature="167:483" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Movie.API/Models/Movie.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding>
+            <marker date="1569009276152" expanded="true" signature="61:411" ph="{...}" />
+            <marker date="1569009276152" expanded="true" signature="86:409" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Movie.API/Models/MovieToPut.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Movie.API/Mapping/MappingProfile.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+          <folding>
+            <marker date="1569859734589" expanded="true" signature="6:41" ph="..." />
+            <marker date="1569859734589" expanded="true" signature="70:232" ph="{...}" />
+            <marker date="1569859734589" expanded="true" signature="114:230" ph="{...}" />
+            <marker date="1569859734589" expanded="true" signature="152:224" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Movie.API/Controllers/StudioController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="42" column="39" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="39" />
+          <folding>
+            <marker date="1569861726154" expanded="true" signature="6:132" ph="..." />
+            <marker date="1569861726154" expanded="true" signature="165:1498" ph="{...}" />
+            <marker date="1569861726154" expanded="true" signature="264:1496" ph="{...}" />
+            <marker date="1569861726154" expanded="true" signature="402:472" ph="{...}" />
+            <marker date="1569861726154" expanded="true" signature="533:642" ph="{...}" />
+            <marker date="1569861726154" expanded="true" signature="736:852" ph="{...}" />
+            <marker date="1569861726154" expanded="true" signature="958:1081" ph="{...}" />
+            <marker date="1569861726154" expanded="true" signature="1180:1291" ph="{...}" />
+            <marker date="1569861726154" expanded="true" signature="1383:1490" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Movie.API/Controllers/MovieController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="57" column="82" lean-forward="true" selection-start-line="57" selection-start-column="82" selection-end-line="57" selection-end-column="82" />
+          <folding>
+            <marker date="1569861350212" expanded="true" signature="6:133" ph="..." />
+            <marker date="1569861350212" expanded="true" signature="166:2111" ph="{...}" />
+            <marker date="1569861350212" expanded="true" signature="268:2109" ph="{...}" />
+            <marker date="1569861350212" expanded="true" signature="459:557" ph="{...}" />
+            <marker date="1569861350212" expanded="true" signature="617:724" ph="{...}" />
+            <marker date="1569861350212" expanded="true" signature="817:931" ph="{...}" />
+            <marker date="1569861350212" expanded="true" signature="1047:1171" ph="{...}" />
+            <marker date="1569861350212" expanded="true" signature="1282:1585" ph="{...}" />
+            <marker date="1569861350212" expanded="true" signature="1695:1900" ph="{...}" />
+            <marker date="1569861350212" expanded="true" signature="1999:2103" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Movie.API/Repositories/MovieRepository/MoviesRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="69" column="42" selection-start-line="69" selection-start-column="42" selection-end-line="69" selection-end-column="42" />
+          <folding>
+            <marker date="1569862107620" expanded="true" signature="6:170" ph="..." />
+            <marker date="1569862107620" expanded="true" signature="204:2778" ph="{...}" />
+            <marker date="1569862107620" expanded="true" signature="258:2776" ph="{...}" />
+            <marker date="1569862107620" expanded="true" signature="370:422" ph="{...}" />
+            <marker date="1569862107620" expanded="true" signature="468:583" ph="{...}" />
+            <marker date="1569862107620" expanded="true" signature="641:1680" ph="{...}" />
+            <marker date="1569862107620" expanded="true" signature="926:1643" ph="{...}" />
+            <marker date="1569862107620" expanded="true" signature="983:1408" ph="{...}" />
+            <marker date="1569862107620" expanded="true" signature="1117:1388" ph="{...}" />
+            <marker date="1569862107620" expanded="true" signature="1452:1629" ph="{...}" />
+            <marker date="1569862107620" expanded="true" signature="1527:1611" ph="{...}" />
+            <marker date="1569862107620" expanded="true" signature="1752:1876" ph="{...}" />
+            <marker date="1569862107620" expanded="true" signature="1954:2375" ph="{...}" />
+            <marker date="1569862107620" expanded="true" signature="2021:2224" ph="{...}" />
+            <marker date="1569862107620" expanded="true" signature="2434:2544" ph="{...}" />
+            <marker date="1569862107620" expanded="true" signature="2591:2770" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Movie.API/Repositories/MovieRepository/IMoviesRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding>
+            <marker date="1569859613040" expanded="true" signature="6:106" ph="..." />
+            <marker date="1569859613040" expanded="true" signature="140:504" ph="{...}" />
+            <marker date="1569859613040" expanded="true" signature="180:502" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Movie.API/Repositories/StudioRepository/IStudioRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+          <folding>
+            <marker date="1569861726124" expanded="true" signature="6:87" ph="..." />
+            <marker date="1569861726124" expanded="true" signature="138:403" ph="{...}" />
+            <marker date="1569861726124" expanded="true" signature="179:401" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Movie.API/Repositories/StudioRepository/StudioRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" column="25" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
+          <folding>
+            <marker date="1569861726143" expanded="true" signature="6:170" ph="..." />
+            <marker date="1569861726143" expanded="true" signature="221:1608" ph="{...}" />
+            <marker date="1569861726143" expanded="true" signature="277:1606" ph="{...}" />
+            <marker date="1569861726143" expanded="true" signature="390:442" ph="{...}" />
+            <marker date="1569861726143" expanded="true" signature="483:591" ph="{...}" />
+            <marker date="1569861726143" expanded="true" signature="644:768" ph="{...}" />
+            <marker date="1569861726143" expanded="true" signature="843:1201" ph="{...}" />
+            <marker date="1569861726143" expanded="true" signature="905:1047" ph="{...}" />
+            <marker date="1569861726143" expanded="true" signature="1256:1368" ph="{...}" />
+            <marker date="1569861726143" expanded="true" signature="1416:1600" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>

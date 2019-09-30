@@ -50,6 +50,40 @@
             "description": "Success"
           }
         }
+      },
+      "put": {
+        "tags": [
+          "Movie"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Movie"
+              }
+            },
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Movie"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Movie"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Movie"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
       }
     },
     "/api/movie/{id}": {
@@ -68,51 +102,6 @@
             }
           }
         ],
-        "responses": {
-          "200": {
-            "description": "Success"
-          }
-        }
-      },
-      "put": {
-        "tags": [
-          "Movie"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "requestBody": {
-          "content": {
-            "application/json-patch+json": {
-              "schema": {
-                "$ref": "#/components/schemas/MovieToPost"
-              }
-            },
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/MovieToPost"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/MovieToPost"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/MovieToPost"
-              }
-            }
-          }
-        },
         "responses": {
           "200": {
             "description": "Success"
@@ -206,10 +195,65 @@
             "description": "Success"
           }
         }
+      },
+      "put": {
+        "tags": [
+          "Studio"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Studio"
+              }
+            },
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Studio"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Studio"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Studio"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
       }
     },
     "/api/studio/{id}": {
       "get": {
+        "tags": [
+          "Studio"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "delete": {
         "tags": [
           "Studio"
         ],
@@ -490,28 +534,6 @@
               "$ref": "#/components/schemas/Rating"
             },
             "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "MovieToPost": {
-        "type": "object",
-        "properties": {
-          "name": {
-            "type": "string",
-            "nullable": true
-          },
-          "category": {
-            "type": "string",
-            "nullable": true
-          },
-          "description": {
-            "type": "string",
-            "nullable": true
-          },
-          "price": {
-            "type": "number",
-            "format": "double"
           }
         },
         "additionalProperties": false
